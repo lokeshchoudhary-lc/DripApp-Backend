@@ -10,7 +10,7 @@ const corsOptions = {
     }
   },
   credentials: true,
-  methods: ['GET', 'POST', 'PUT'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
   //Accept application/json? Content-Type:application/json?
   allowedHeaders: ['Content-Type', 'Accept', 'origin'],
   maxAge: 3600,
